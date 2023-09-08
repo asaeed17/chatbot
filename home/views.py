@@ -21,7 +21,7 @@ def chatAPI(request):
         messages=[
                 {"role": "user", "content": prompt}
         ],
-        temperature=1,
+        temperature=0.9,
         max_tokens=256,
         top_p=1,
         frequency_penalty=0,
